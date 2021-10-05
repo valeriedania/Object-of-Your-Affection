@@ -24,7 +24,13 @@ namespace DatingProfile
     public string ViewProfile()
     {
       string bio = $"Name: {name}\nAge: {age}\nCity: {city}\nCountry: {country}\nPronouns: {pronouns}"; 
-
+      
+      bio += "\nHobbies:\n";
+      foreach (string hobby in hobbies) 
+      {
+        bio += $"- {hobby}\n";
+      }
+      
       return bio;
     }
     public void SetHobbies(string[] hobbies)
