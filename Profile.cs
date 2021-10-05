@@ -4,11 +4,11 @@ namespace DatingProfile
 { 
   class Profile
   {
-    string name;
-    int age;
-    string city;
-    string county;
-    string pronouns;
-    string[] hobbies;
+    private string name;
+    private int age;
+    private string city;
+    private string county;
+    private string pronouns;
+    private string[] hobbies;
   }
 }
