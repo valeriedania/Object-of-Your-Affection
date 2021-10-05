@@ -27,5 +27,9 @@ namespace DatingProfile
 
       return bio;
     }
+    public void SetHobbies(string[] hobbies)
+    {
+      this.hobbies = hobbies;
+    }
   }
 }
